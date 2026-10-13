@@ -1,5 +1,4 @@
-# Portfolio (Next.js + Material UI)
-
+# Portfolio 
 A single-page portfolio themed from one primary colour, with animated sections (About, Skills, Experience, Internships, Education, Awards and Achievements, Projects, Freelancing, Certificates, Contact). Nav links scroll to each section with an eased animation; the nav bar has a sliding indicator, active-section dot and scroll-progress line. Elements animate individually: split-text reveals, cards that tilt and light up under the cursor, magnetic buttons, a self-drawing timeline and a scroll-reactive marquee. Dark and light modes, responsive down to mobile, and reduced-motion support.
 
 ## Run it
