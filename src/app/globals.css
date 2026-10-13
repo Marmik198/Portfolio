@@ -1,0 +1,28 @@
+::selection {
+  background: #5b4bff;
+  color: #fff;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+@keyframes drift-a { 0%,100% { transform: translate3d(0,0,0) scale(1); } 50% { transform: translate3d(7vw,6vh,0) scale(1.15); } }
+@keyframes drift-b { 0%,100% { transform: translate3d(0,0,0) scale(1.1); } 50% { transform: translate3d(-8vw,-5vh,0) scale(.95); } }
+@keyframes drift-c { 0%,100% { transform: translate3d(0,0,0) scale(1); } 50% { transform: translate3d(5vw,-7vh,0) scale(1.2); } }
+@keyframes float-y { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-18px) rotate(8deg); } }
+@keyframes spin-slow { to { transform: rotate(360deg); } }
+@keyframes pulse-ring { 0% { transform: scale(.8); opacity: .9; } 100% { transform: scale(2.6); opacity: 0; } }
+@keyframes blink { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+@keyframes shine { 0% { transform: translateX(-120%) skewX(-20deg); } 60%,100% { transform: translateX(260%) skewX(-20deg); } }
+@keyframes node-glow { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+@keyframes scroll-cue { 0% { transform: translateY(-100%); } 100% { transform: translateY(300%); } }
+@keyframes dash-flow { to { stroke-dashoffset: -24; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
