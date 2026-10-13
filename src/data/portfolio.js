@@ -59,7 +59,7 @@ export const education = [
   {
     title: 'B.Tech, Computer Engineering',
     place: 'K J Somaiya College of Engineering, Mumbai',
-    period: '2021 – 2023',
+    period: '2019 – 2023',
     note: 'CGPI 8.93',
     logo: '/logos/kjsce.png', // optional
     subjects: [
@@ -203,10 +203,10 @@ export const experience = {
       bullets: [
         'Architected and implemented a new channel loyalty product for manufacturers and finance companies, serving DSAs, agents, and channel partners across the distribution lifecycle with KPI management, leaderboards, tier computation, customer segmentation, and an approval module.', 
         'Engineered a real-time, API-driven microservices platform replacing T+1 bulk-file settlement, with 99\% of transactions under 800ms; used Spring AOP for cross-cutting concerns and tracing, plus a webhook-based data-relay service.', 
-        'Built a low-latency balance service using caching, Bloom filters and database views, handling 300 TPS, letting partners fetch balances and burn points across corporates and LOBs in a single go.', 
+        'Built a low-latency balance service using caching, Bloom filters and database views, handling 300 TPS, letting partners fetch balances and burn points across corporates and Line of business\'s in a single go.', 
         'Developed a unified vendor integration layer for multiple modules using strategy-based orchestration and Kong gateway, cutting configuration and development effort by 60\% when onboarding clients.', 
         'Structured a bucket-based reward matrix framework and optimized enrichment and tenant loading, reducing database calls by over 45\% and improving Hikari connection-pool utilization and cutting startup time from 300s to 85s.', 
-        'Created AI-assisted admin panels and dev tools using ReactJS, so client, product and RM teams manage configurations independently.', 
+        'Created AI-assisted admin panels and dev tools using React, so client, product and RM teams manage configurations independently.', 
         'Migrated services to Java 21 and handled SSL/TLS certificate migrations.', 
       ],
       tags: ['System Design', 'Spring Boot', 'Spring AOP', 'Redis', 'Bloom Filters', 'Kong Gateway', 'Kubernetes', 'Java 8-21'],
@@ -251,7 +251,7 @@ export const internships = [
     period: 'Apr 2022 – Jul 2022',
     color: 'amber',
     bullets: [
-      'Built UI/UX components and server-side functionality for the ComED Learning platform using Django and ReactJS',
+      'Built UI/UX components and server-side functionality for the ComED Learning platform using Django and React',
       'Connected backend APIs to enable data exchange and dynamic content rendering; resolved application bugs and ran functional tests to make the platform more reliable.',
     ],
     tags: ['Django', 'React JS', 'Pyhton', 'UI/UX', 'REST APIs', 'Testing'],
