@@ -7,41 +7,45 @@ export const profile = {
   name: 'Marmik Shah',
   role: 'Senior Software Developer',
   location: 'Mumbai, India',
+  availability: 'PAN, India',
   email: 'shahmarmik1@gmail.com',
   phone: '+91 87676 62635',
   linkedin: 'https://linkedin.com/in/marmik-shah19',
   github: 'https://github.com/Marmik198',
   resume: '/Marmik_Shah_Resume.pdf',
+  // Each line completes the sentence "<role> who ...". Keep them short (about 45 characters or fewer).
   typedRoles: [
-    'builds event-driven platforms.',
-    'designs real-time APIs.',
-    'ships loyalty and rewards systems.',
-    'keeps services running with zero downtime.',
+    'builds event-driven loyalty platforms.',
+    'designs real-time, API-driven microservices.',
+    'scales BFSI and rewards systems on Kafka.',
+    'ships zero-downtime production services.',
+    'turns complex reward rules into reliable code.',
   ],
   tagline:
-    'I build the backend systems behind loyalty and rewards programs: Kafka ingestion pipelines, real-time APIs and low-latency services that process millions of records every day.',
+    'I build backend systems for BFSI, loyalty and rewards platforms: Kafka ingestion pipelines, real-time APIs and low-latency services that process millions of records every day.',
 };
 
 export const about = {
-  // Keep this to one or two short sentences.
-  summary: 'I build the backend systems behind loyalty and rewards platforms, where high volume, low latency and correctness all matter at once.',
-  // Short proof points, shown as a checklist.
+  // A short professional summary: two sentences, covering domain, tenure and promotion.
+  summary:
+    'Senior Software Developer building backend platforms for the BFSI, loyalty and rewards domain since June 2023, promoted from Software Developer in April 2025. I design event-driven, API-first systems, from Kafka pipelines ingesting 1M+ records a day to real-time services with 99% of transactions under 800ms.',
+  // Three proof points that add to the summary, shown as a checklist.
   points: [
-    'Kafka ingestion handling 1M+ records a day',
-    'Real-time APIs replacing T+1 bulk-file settlement, 99% under 800ms',
     'Architected a channel loyalty product for manufacturers and finance companies',
+    'Low-latency balance service handling 300 TPS with caching and Bloom filters',
+    'Zero downtime on production services; Redis memory cut by over 50%',
   ],
   facts: [
     { label: 'Based in', value: 'Mumbai, India' },
     { label: 'Role', value: 'Senior Software Developer' },
     { label: 'Promoted', value: 'April 2025' },
-    { label: 'Domain', value: 'Loyalty and rewards' },
+    { label: 'Domain', value: 'BFSI, Fintech, Loylty Platforms' },
   ],
   highlights: [
     { icon: 'Bolt', color: 'violet', title: 'Throughput and latency', text: 'Kafka, Redis and Bloom filters tuned for scale.' },
     { icon: 'Hub', color: 'coral', title: 'System design', text: 'Microservices and event-driven flows, used where they fit.' },
     { icon: 'Cloud', color: 'sky', title: 'Cloud and reliability', text: 'Kubernetes, HA setups, monitoring and alerts.' },
-    { icon: 'Dashboard', color: 'mint', title: 'Tools for teams', text: 'Admin panels and dev tools so teams manage configs themselves.' },
+    { icon: 'Dashboard', color: 'mint', title: 'Tools and Automation', text: 'Admin panels and dev tools so teams manage configs themselves.' },
   ],
 };
 
@@ -120,7 +124,7 @@ export const skills = [
     items: ['Claude', 'GPT', 'Cursor', 'Kiro', 'Copilot'],
   },
   {
-    title: 'DevOps and infra',
+    title: 'DevOps and Infra',
     icon: 'Cloud',
     color: 'mint',
     items: ['Jenkins', 'Prometheus', 'Grafana', 'New Relic', 'ELK', 'Alertmanager', 'Linux', 'Bash', 'Nginx', 'Crontab', 'High Availability'],
@@ -129,20 +133,20 @@ export const skills = [
     title: 'Tools and platforms',
     icon: 'Hub',
     color: 'amber',
-    items: ['Docker', 'Kubernetes', 'Git', 'Azure', 'Apache Camel', 'Kong Gateway', 'IPFS', 'Parcel'],
+    items: ['Docker', 'Kubernetes', 'Git', 'Azure', 'Apache Camel', 'Airflow', 'Kong Gateway', 'Hardhat', 'IPFS', 'Parcel'],
   },
   {
     title: 'Messaging and APIs',
     icon: 'Stream',
     color: 'coral',
-    items: ['Apache Kafka', 'RabbitMQ', 'REST', 'JPA', 'GraphQL', 'Bloom Filters'],
+    items: ['Apache Kafka', 'RabbitMQ', 'REST', 'SOAP', 'JPA', 'GraphQL', 'Bloom Filters'],
   },
 ];
 
 export const experience = {
   company: 'Loylty Rewardz',
   group: 'A Bill Desk Group Company',
-  domain: 'Loyalty and rewards platforms',
+  domains: ['BFSI', 'Loyalty', 'Rewards'],
   location: 'Mumbai, India',
   logo: '', // optional: '/logos/company.png' (file in public/logos/)
   roles: [

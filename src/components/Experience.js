@@ -32,7 +32,9 @@ export default function Experience() {
             </Box>
           </Box>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mt: 2.5 }}>
-            <Pill>{experience.domain}</Pill>
+            {experience.domains.map((dm) => (
+              <Pill key={dm}>{dm}</Pill>
+            ))}
             <Pill>{experience.location}</Pill>
           </Box>
         </FxCard>

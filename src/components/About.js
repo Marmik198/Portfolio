@@ -17,7 +17,7 @@ export default function About() {
         {/* Short intro + three proof points */}
         <Reveal sx={{ gridColumn: { md: 'span 7' } }}>
           <FxCard tilt={2} sx={{ p: { xs: 3, md: 4 }, height: '100%' }}>
-            <Typography sx={{ fontFamily: FONTS.display, fontWeight: 600, fontSize: { xs: '1.25rem', md: '1.5rem' }, lineHeight: 1.4, letterSpacing: '-0.02em' }}>
+            <Typography sx={{ fontFamily: FONTS.display, fontWeight: 500, fontSize: { xs: '1.1rem', md: '1.3rem' }, lineHeight: 1.6, letterSpacing: '-0.01em' }}>
               {about.summary}
             </Typography>
             <Box component="ul" sx={{ listStyle: 'none', p: 0, m: 0, mt: 3, display: 'grid', gap: 1.5 }}>

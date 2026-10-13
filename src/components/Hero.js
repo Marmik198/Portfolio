@@ -64,7 +64,7 @@ export default function Hero() {
             <Box component={motion.div} {...rise(reduce, 0.05)} sx={(t) => ({ display: 'inline-flex', alignItems: 'center', gap: 1.5, px: 2, py: 0.8, mb: 3.5, borderRadius: 999, border: `1px solid ${alpha(t.palette.primary.main, 0.4)}`, background: alpha(t.palette.primary.main, 0.1) })}>
               <PulseDot />
               <Typography variant="body2" sx={{ fontWeight: 600 }}>
-                {profile.location} · open to select freelance projects
+                {profile.location}
               </Typography>
             </Box>
 

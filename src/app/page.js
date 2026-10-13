@@ -31,7 +31,7 @@ export default function Home() {
         <Achievements />
         <Projects />
         <Freelancing />
-        <Certifications />
+        {/* <Certifications /> */}
         <Contact />
       </Box>
       <Box sx={{ position: 'relative', zIndex: 1 }}>
