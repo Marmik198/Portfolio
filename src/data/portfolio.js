@@ -172,7 +172,7 @@ export const skills = [
     title: 'Tools and platforms',
     icon: 'Hub',
     color: 'amber',
-    items: ['Docker', 'Kubernetes', 'Git', 'Azure', 'Apache Camel', 'Airflow', 'Kong Gateway', 'Hardhat', 'IPFS', 'Parcel'],
+    items: ['Docker', 'Kubernetes', 'Git', 'Azure', 'Apache Camel', 'Airflow', 'Kong Gateway', 'Parcel', 'Oauth 2.0', 'JWT', 'CSRF'],
   },
   {
     title: 'Messaging and APIs',
@@ -223,6 +223,20 @@ export const experience = {
 
 export const internships = [
   {
+    company: 'Techq Connect',
+    logo: '/logos/tq.jpeg', // optional
+    role: 'Software Development Intern',
+    location: 'Remote',
+    period: 'Feb 2022 – March 2022',
+    color: 'amber',
+    bullets: [
+      'Built a full-stack Django quiz application with JWT-based registration and login, plus a superadmin module for user management.',
+      'Implemented quiz creation by admins for MCQ and text-input questions, with auto-evaluation for MCQs, manual grading for text answers, result review for users, and validations, timers, and shuffled questions.',
+      'Assisted on several ongoing client projects alongside the main quiz application.',
+    ],
+    tags: ['Django', 'React JS', 'Pyhton', 'UI/UX', 'REST APIs', 'Testing'],
+  },
+  {
     company: 'ComED Learning',
     logo: '/logos/comed.jpeg', // optional
     role: 'Software Development Intern',
@@ -230,8 +244,8 @@ export const internships = [
     period: 'Apr 2022 – Jul 2022',
     color: 'amber',
     bullets: [
-      'Developed UI/UX components and backend functionality for the ComED Learning platform.',
-      'Integrated backend APIs for data exchange and dynamic content rendering; debugged application issues and performed functional testing to improve reliability.',
+      'Built UI/UX components and server-side functionality for the ComED Learning platform.',
+      'Connected backend APIs to enable data exchange and dynamic content rendering; resolved application bugs and ran functional tests to make the platform more reliable.',
     ],
     tags: ['Django', 'React JS', 'Pyhton', 'UI/UX', 'REST APIs', 'Testing'],
   },
@@ -243,8 +257,8 @@ export const internships = [
     period: 'Feb 2021 – Apr 2021',
     color: 'coral',
     bullets: [
-      'Developed the website for the college cultural fest, Symphony, collaborating with the cultural and design teams.',
-      'Built responsive web interfaces with interactive components and animations, optimizing layouts for different screen sizes.',
+      'Created the website for Symphony, the college cultural fest, working closely with the cultural and design teams.',
+      'Designed responsive web interfaces featuring interactive components and animations, tuning layouts to fit a range of screen sizes.',
     ],
     tags: ['JavaScript', 'CSS', 'Responsive design', 'Animations', 'Web'],
   },
