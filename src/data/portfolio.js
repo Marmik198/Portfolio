@@ -201,7 +201,7 @@ export const experience = {
       period: 'Apr 2025 – Present',
       color: 'coral',
       bullets: [
-        'Architected and implemented a new channel loyalty product for manufacturers and finance companies, serving DSAs, agents, and channel partners across the distribution lifecycle with KPI management, leaderboards, tier computation, customer segmentation, and an approval module.', 
+        'Architected and implemented a new channel loyalty product for manufacturers and finance companies, serving DSAs, agents, and channel partners across the distribution lifecycle with Hierarchy Management, KPI management, leaderboards, tier computations, customer segmentation, and an approval module.', 
         'Engineered a real-time, API-driven microservices platform replacing T+1 bulk-file settlement, with 99\% of transactions under 800ms; used Spring AOP for cross-cutting concerns and tracing, plus a webhook-based data-relay service.', 
         'Built a low-latency balance service using caching, Bloom filters and database views, handling 300 TPS, letting partners fetch balances and burn points across corporates and Line of business\'s in a single go.', 
         'Developed a unified vendor integration layer for multiple modules using strategy-based orchestration and Kong gateway, cutting configuration and development effort by 60\% when onboarding clients.', 
