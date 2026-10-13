@@ -182,7 +182,7 @@ export const skills = [
   },
   {
     title: 'Concepts',
-    icon: 'Stream',
+    icon: 'Api',
     color: 'coral',
     items: ['Microservices', 'Distributed Systems', 'Caching', 'High Availability', 'Bloom Filters', 'Agile', 'Blockchain', 'Multi-Tenancy', 'UI/UX', 'Responsive Designs', 'State Management'],
   },
