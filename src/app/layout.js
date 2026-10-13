@@ -6,7 +6,7 @@ import ThemeRegistry from '@/theme/ThemeRegistry';
 import './globals.css';
 
 export const metadata = {
-  title: 'Marmik Shah | Senior Software Developer',
+  title: 'Marmik Shah | Portfolio',
       description:
     'Marmik Shah, full-stack Senior Software Developer in Mumbai. Event-driven BFSI, loyalty and rewards platforms with React, Next.js and AI-assisted engineering.',
 };
@@ -20,6 +20,7 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/logos/favicon.png" type="image/svg+xml"></link>
       <body>
         <ThemeRegistry>{children}</ThemeRegistry>
       </body>
