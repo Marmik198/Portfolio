@@ -28,8 +28,8 @@ export default function Home() {
         <Experience />
         <Internships />
         <Education />
-        <Achievements />
         <Projects />
+        <Achievements />
         <Freelancing />
         {/* <Certifications /> */}
         <Contact />

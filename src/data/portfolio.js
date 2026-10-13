@@ -327,7 +327,7 @@ export const projects = [
     title: 'Chakra',
     color: 'sky',
     logo: '/logos/chakra.png', // optional
-    description: 'A full-stack portal/app with task, expense, etc tracking.',
+    description: 'A your personal life tracker, a web and Android app that keeps your tasks, streaks, money, health, sleep, food, investments, work board and notes together in one place.',
     stack: ['Node', 'Next JS', 'Supabase'],
     github: 'https://github.com/Marmik198/Chakra',
   },
