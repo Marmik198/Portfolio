@@ -142,7 +142,7 @@ export const skills = [
     title: 'Programming languages',
     icon: 'Code',
     color: 'violet',
-    items: ['Java', 'JavaScript', 'Python', 'SQL', 'C', 'C++', 'Solidity'],
+    items: ['Java', 'JavaScript', 'TypeScript', 'Python', 'SQL', 'C', 'C++', 'Solidity'],
   },
   {
     title: 'Frameworks and libraries',
@@ -163,28 +163,34 @@ export const skills = [
     items: ['Claude', 'GPT', 'Cursor', 'Kiro', 'Copilot'],
   },
   {
-    title: 'DevOps and Infra',
+    title: 'DevOps and Infrastructure',
     icon: 'Cloud',
     color: 'mint',
-    items: ['Jenkins', 'Prometheus', 'Grafana', 'New Relic', 'ELK', 'Alertmanager', 'Linux', 'Bash', 'Nginx', 'Crontab', 'High Availability'],
+    items: ['CI/CD', 'Jenkins', 'Prometheus', 'Grafana', 'New Relic', 'ELK', 'Alertmanager', 'Linux', 'Bash', 'Nginx', 'Crontab'],
   },
   {
     title: 'Tools and platforms',
     icon: 'Hub',
     color: 'amber',
-    items: ['Docker', 'Kubernetes', 'Git', 'Azure', 'Apache Camel', 'Airflow', 'Kong Gateway', 'Parcel', 'Oauth 2.0', 'JWT', 'CSRF'],
+    items: ['Docker', 'Kubernetes', 'Git', 'Azure', 'Apache Camel', 'Airflow', 'Kong Gateway', 'Parcel'],
   },
   {
     title: 'Messaging and APIs',
     icon: 'Stream',
     color: 'coral',
-    items: ['Apache Kafka', 'RabbitMQ', 'REST', 'SOAP', 'JPA', 'GraphQL', 'Bloom Filters'],
+    items: ['Apache Kafka', 'RabbitMQ', 'REST', 'SOAP', 'JPA', 'GraphQL', 'Oauth 2.0', 'JWT'],
+  },
+  {
+    title: 'Concepts',
+    icon: 'Stream',
+    color: 'coral',
+    items: ['Microservices', 'Distributed Systems', 'Caching', 'High Availability', 'Bloom Filters', 'Agile', 'Blockchain', 'Multi Tenancy', 'UI/UX', 'Responsive Designs', 'State Management'],
   },
 ];
 
 export const experience = {
   company: 'Loylty Rewardz',
-  group: 'A Bill Desk Group Company',
+  group: 'A BillDesk Group Company',
   domains: ['BFSI', 'Fintech', 'Loyalty'],
   location: 'Mumbai, India',
   period: 'Jun 2023 – Present',
@@ -195,12 +201,13 @@ export const experience = {
       period: 'Apr 2025 – Present',
       color: 'coral',
       bullets: [
-        'Architected and implemented a new channel loyalty product for manufacturers and finance companies, serving DSAs, agents and channel partners across the distribution lifecycle with KPI management, leaderboards, tier computation, customer segmentation and an approval module.',
-        'Designed a real-time, API-driven microservices platform replacing T+1 bulk-file settlement, with 99% of transactions under 800ms; used Spring AOP for cross-cutting concerns and tracing, plus a webhook-based data-relay service.',
-        'Built a low-latency balance service using caching, Bloom filters and database views, handling 300 TPS, letting partners fetch balances and burn points across corporates and LOBs in a single go.',
-        'Built a unified vendor integration layer for multiple modules using strategy-based orchestration and Kong gateway, cutting configuration and development effort when onboarding clients.',
-        'Designed a bucket-based reward matrix framework and optimized enrichment and tenant loading, reducing database calls and improving Hikari connection-pool use and startup time.',
-        'Built admin panels and development tools using AI, so client, product and RM teams manage configurations independently; migrated services to Java 21 and handled SSL and TLS certificate migrations.',
+        'Architected and implemented a new channel loyalty product for manufacturers and finance companies, serving DSAs, agents, and channel partners across the distribution lifecycle with KPI management, leaderboards, tier computation, customer segmentation, and an approval module.', 
+        'Engineered a real-time, API-driven microservices platform replacing T+1 bulk-file settlement, with 99\% of transactions under 800ms; used Spring AOP for cross-cutting concerns and tracing, plus a webhook-based data-relay service.', 
+        'Built a low-latency balance service using caching, Bloom filters and database views, handling 300 TPS, letting partners fetch balances and burn points across corporates and LOBs in a single go.', 
+        'Developed a unified vendor integration layer for multiple modules using strategy-based orchestration and Kong gateway, cutting configuration and development effort by 60\% while onboarding clients.', 
+        'Structured a bucket-based reward matrix framework and optimized enrichment and tenant loading, reducing database calls by over 45\% and improving Hikari connection-pool use and startup time from 300s to 85s.', 
+        'Created AI-assisted admin panels and dev tools so client, product and RM teams manage configurations independently.', 
+        'Migrated services to Java 21 and handled SSL/TLS certificate migrations.', 
       ],
       tags: ['System Design', 'Spring Boot', 'Spring AOP', 'Redis', 'Bloom Filters', 'Kong Gateway', 'Kubernetes', 'Java 8-21'],
     },
@@ -209,14 +216,14 @@ export const experience = {
       period: 'Jun 2023 – Mar 2025',
       color: 'violet',
       bullets: [
-        'Built a Kafka-driven ingestion platform processing 1M+ records daily, leveraging polling and webhook patterns for asynchronous status tracking and reconciliation to catch missed status updates.',
+        'Engineered a Kafka-driven ingestion platform processing 1M+ records daily, leveraging polling and webhook patterns for asynchronous status tracking and reconciliation to catch missed status updates.',
         'Designed an enterprise-wide loyalty program letting one program span multiple lines of business, with generic APIs.',
         'Developed a milestone-based journey rewards product on GraphQL; architected a profile-driven multi-database setup and a strategy-driven post-award layer for cashback and other redemption modules.',
-        'Designed a parallel-processing lock for distributed ad hoc transactions and implemented the budget module to control reward spend, with threshold-based actions and real-time budget updates.',
-        'Achieved zero downtime on production services with keep-alive, virtual IPs and master-slave HA; cut Redis memory by over 50% with a purging policy, a cluster setup and tuned RDB snapshots.',
-        'Deployed a microservices architecture on a cloud Kubernetes cluster; implemented observability using ELK, Prometheus and Grafana.',
+        'Devised a parallel-processing lock for distributed ad hoc transactions and implemented the budget module to control reward spend, with threshold-based actions and real-time budget updates.',
+        'Achieved zero downtime on production services with keep-alive, virtual IPs and master-slave HA; cut Redis memory by over 50\% with a purging policy, a cluster setup and tuned RDB snapshots.',
+        'Deployed microservices architecture on Kubernetes cluster; introduced observability using ELK, Prometheus, and Grafana.',
       ],
-      tags: ['Kafka', 'GraphQL', 'Redis Cluster', 'Kubernetes', 'ELK', 'Prometheus', 'Grafana', 'MySQL', 'MongoDB'],
+      tags: ['Multi Tenancy', 'Kafka', 'GraphQL', 'Redis Cluster', 'Kubernetes', 'ELK', 'Prometheus', 'Grafana', 'MySQL', 'MongoDB'],
     },
   ],
 };
@@ -244,7 +251,7 @@ export const internships = [
     period: 'Apr 2022 – Jul 2022',
     color: 'amber',
     bullets: [
-      'Built UI/UX components and server-side functionality for the ComED Learning platform.',
+      'Built UI/UX components and server-side functionality for the ComED Learning platform using Django and ReactJS',
       'Connected backend APIs to enable data exchange and dynamic content rendering; resolved application bugs and ran functional tests to make the platform more reliable.',
     ],
     tags: ['Django', 'React JS', 'Pyhton', 'UI/UX', 'REST APIs', 'Testing'],
@@ -257,7 +264,7 @@ export const internships = [
     period: 'Feb 2021 – Apr 2021',
     color: 'coral',
     bullets: [
-      'Created the website for Symphony, the college cultural fest, working closely with the cultural and design teams.',
+      'Created the website for Symphony, the college cultural fest, collaborating with the cultural and design teams.',
       'Designed responsive web interfaces featuring interactive components and animations, tuning layouts to fit a range of screen sizes.',
     ],
     tags: ['JavaScript', 'CSS', 'Responsive design', 'Animations', 'Web'],
@@ -314,7 +321,7 @@ export const freelancing = {
 // `logo` is optional: put the image in public/logos/ and use a path like '/logos/newzer.png'.
 export const projects = [
   {
-    title: 'Mumbai Police web portal',
+    title: 'Mumbai Police Portal',
     color: 'sky',
     logo: '/logos/mumbaipolice.png', 
     description: 'A full-stack complaint portal with station routing and status tracking.',
@@ -322,7 +329,7 @@ export const projects = [
     github: 'https://github.com/Marmik198/Mumbai_Police',
   },
   {
-    title: 'Waiterio application',
+    title: 'Waiterio Application',
     color: 'mint',
     logo: '/logos/waiterio.png', // optional
     description: 'A client-server desktop app where waiters place orders and the chef fulfills them.',
