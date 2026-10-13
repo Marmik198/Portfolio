@@ -7,8 +7,8 @@ import './globals.css';
 
 export const metadata = {
   title: 'Marmik Shah | Senior Software Developer',
-  description:
-    'Portfolio of Marmik Shah, a Senior Software Developer building event-driven, high-throughput, scalable platforms.',
+      description:
+    'Marmik Shah, full-stack Senior Software Developer in Mumbai. Event-driven BFSI, loyalty and rewards platforms with React, Next.js and AI-assisted engineering.',
 };
 
 export const viewport = {

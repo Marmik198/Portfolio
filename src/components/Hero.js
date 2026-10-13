@@ -101,9 +101,9 @@ export default function Hero() {
         </Box>
       </Container>
 
-      <Box aria-hidden sx={{ display: { xs: 'none', md: 'block' }, position: 'absolute', bottom: 18, left: '50%', ml: '-1px', width: 2, height: 44, overflow: 'hidden', bgcolor: (t) => alpha(t.palette.primary.main, 0.2) }}>
+      {/* <Box aria-hidden sx={{ display: { xs: 'none', md: 'block' }, position: 'absolute', bottom: 18, left: '50%', ml: '-1px', width: 2, height: 44, overflow: 'hidden', bgcolor: (t) => alpha(t.palette.primary.main, 0.2) }}>
         <Box sx={{ width: 2, height: '40%', bgcolor: 'primary.main', animation: 'scroll-cue 1.8s ease-in-out infinite' }} />
-      </Box>
+      </Box> */}
     </Box>
   );
 }

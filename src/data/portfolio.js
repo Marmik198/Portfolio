@@ -15,37 +15,41 @@ export const profile = {
   resume: '/Marmik_Shah_Resume.pdf',
   // Each line completes the sentence "<role> who ...". Keep them short (about 45 characters or fewer).
   typedRoles: [
-    'builds event-driven loyalty platforms.',
+    'builds event-driven BFSI platforms.',
     'designs real-time, API-driven microservices.',
-    'scales BFSI and rewards systems on Kafka.',
-    'ships zero-downtime production services.',
-    'turns complex reward rules into reliable code.',
+    'crafts clean UIs and admin tools end to end.',
+    'ships full-stack products, from UI to database.',
+    'accelerates delivery with AI-assisted coding.',
+    'keeps production running with zero downtime.'
   ],
   tagline:
-    'I build backend systems for BFSI, loyalty and rewards platforms: Kafka ingestion pipelines, real-time APIs and low-latency services that process millions of records every day.',
+    'Senior Software Developer building scalable, event-driven BFSI, loyalty and rewards platforms, from low-latency backends to polished UIs, and fluent in AI-assisted coding. Promoted to Senior in under two years.',
 };
 
 export const about = {
   // A short professional summary: two sentences, covering domain, tenure and promotion.
   summary:
-    'Senior Software Developer building backend platforms for the BFSI, loyalty and rewards domain since June 2023, promoted from Software Developer in April 2025. I design event-driven, API-first systems, from Kafka pipelines ingesting 1M+ records a day to real-time services with 99% of transactions under 800ms.',
+    'Senior Software Developer with 3+ years of experience building scalable distributed systems for BFSI, loyalty and rewards platforms, across backend, front end and full stack. Architected a new loyalty product for manufacturers and finance companies, implemented Kafka ingestion at 1M+ records a day and a 300 TPS low-latency balance service, applying microservices, event-driven and strategy patterns. Proficient in AI-assisted development with Claude, Cursor, Kiro and Copilot. Promoted to Senior in under two years; recognised with an award every year.',
   // Three proof points that add to the summary, shown as a checklist.
   points: [
     'Architected a channel loyalty product for manufacturers and finance companies',
     'Low-latency balance service handling 300 TPS with caching and Bloom filters',
     'Zero downtime on production services; Redis memory cut by over 50%',
+    'Kafka ingestion at 1M+ records a day and a 300 TPS balance service',
+    'Built admin panels and dev tools with AI so teams manage configurations themselves'
   ],
   facts: [
     { label: 'Based in', value: 'Mumbai, India' },
     { label: 'Role', value: 'Senior Software Developer' },
+    { label: 'Focus', value: 'Backend, Frontend and Full Stack' },
     { label: 'Promoted', value: 'April 2025' },
-    { label: 'Domain', value: 'BFSI, Fintech, Loylty Platforms' },
+    { label: 'Domain', value: 'BFSI, Fintech, Loylty' },
   ],
   highlights: [
-    { icon: 'Bolt', color: 'violet', title: 'Throughput and latency', text: 'Kafka, Redis and Bloom filters tuned for scale.' },
-    { icon: 'Hub', color: 'coral', title: 'System design', text: 'Microservices and event-driven flows, used where they fit.' },
-    { icon: 'Cloud', color: 'sky', title: 'Cloud and reliability', text: 'Kubernetes, HA setups, monitoring and alerts.' },
-    { icon: 'Dashboard', color: 'mint', title: 'Tools and Automation', text: 'Admin panels and dev tools so teams manage configs themselves.' },
+    { icon: 'Bolt', color: 'violet', title: 'Backend at scale', text: 'Kafka, Redis and Bloom filters tuned for high throughput and low latency.' },
+    { icon: 'Hub', color: 'coral', title: 'System and interface design', text: 'Microservices and event-driven flows, paired with clean, usable interfaces.' },
+    { icon: 'Cloud', color: 'sky', title: 'Cloud and reliability', text: 'Kubernetes, high availability, monitoring and alerting for zero-downtime services.' },
+    { icon: 'Dashboard', color: 'mint', title: 'AI-assisted engineering', text: 'Claude, Cursor, Kiro and Copilot used to ship tools and prototypes faster.' },
   ],
 };
 
@@ -57,35 +61,70 @@ export const education = [
     place: 'K J Somaiya College of Engineering, Mumbai',
     period: '2021 – 2023',
     note: 'CGPI 8.93',
-    logo: '', // optional
-    subjects: [], // optional, e.g. ['Data Structures', 'Operating Systems']
+    logo: '/logos/kjsce.png', // optional
+    subjects: [
+      'Data Structures',
+      'Analysis of Algorithms',
+      'Software Engineering',
+      'Object Oriented Programming',
+      'Artificial Intelligence',
+      'Computer System',
+      'Cryptography and Security',
+      'Computer Networks',
+      'Operating Systems',
+      'Blockchain Technology',
+      'Digital Accessibility',
+      'Database Management',
+    ],
+    coCurricular: ['Organising Commitee'],
+    // more: [{ label: 'Languages', items: ['English', 'Hindi'] }], // optional
   },
   {
     title: 'HSC',
-    place: 'Mumbai University',
+    place: 'Sardar Vallabhbhai Patel Jr. College, Mumbai',
     period: '2019',
     note: '84.62%',
-    logo: '', // optional
-    subjects: [], // optional
+    logo: '/logos/svpv.jpeg', // optional
+    subjects: ['Computer Science'], // optional
+    competitiveExams: ['MHT-CET: 97.41', 'JEE-Mains: 84.07'], // optional
   },
   {
     title: 'SSC',
-    place: 'Mumbai University',
+    place: 'Shantinagar High School, Mumbai',
     period: '2017',
     note: '89.80%',
-    logo: '', // optional
+    logo: '/logos/snhs.png', // optional
+    more: [{ label: 'Art Examinations', items: ['Intermediate Grade: B', 'Elementary Grade: C'] }],
     subjects: [], // optional
   },
 ];
 
 export const achievements = [
-  { title: 'Rising Star', period: '2023–24', note: 'Company award.' },
-  { title: 'Extraordinary Diligence', period: '2024–25', note: 'Company award.' },
-  { title: 'Think Out of the Box', period: '2025–26', note: 'Company award.' },
   {
-    title: 'HackerBash hackathon, first place',
-    period: 'College',
-    note: 'Won first place at the CSI HackerBash hackathon as Team GrowMore. Project: Co-Vaccine web portal.',
+    title: 'Think Out of the Box', 
+    period: '2026', 
+    note: 'Loylty Rewardz Award', 
+    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7455623075951222784/',
+    linkLabel: 'View Recognition',
+  },
+  {
+    title: 'Extraordinary Diligence', 
+    period: '2025', 
+    note: 'Loylty Rewardz Award', 
+    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7329455901826826240/',
+    linkLabel: 'View Recognition',
+  },
+  {
+    title: 'Rising Star', 
+    period: '2024', 
+    note: 'Loylty Rewardz Award.', 
+    href: 'https://www.linkedin.com/feed/update/urn:li:activity:7192604874243510272/',
+    linkLabel: 'View Recognition',
+  },
+  {
+    title: 'HackerBash hackathon, Winner',
+    period: '2021',
+    note: 'Won first place at CSI HackerBash hackathon as Team GrowMore. Project: Co-Vaccine web portal.',
     href: 'https://devfolio.co/projects/covaccine-f381',
     linkLabel: 'View project',
   },
@@ -146,9 +185,10 @@ export const skills = [
 export const experience = {
   company: 'Loylty Rewardz',
   group: 'A Bill Desk Group Company',
-  domains: ['BFSI', 'Loyalty', 'Rewards'],
+  domains: ['BFSI', 'Fintech', 'Loyalty'],
   location: 'Mumbai, India',
-  logo: '', // optional: '/logos/company.png' (file in public/logos/)
+  period: 'Jun 2023 – Present',
+  logo: '/logos/loylty.png', // optional: '/logos/company.png' (file in public/logos/)
   roles: [
     {
       title: 'Senior Software Developer',
@@ -162,7 +202,7 @@ export const experience = {
         'Designed a bucket-based reward matrix framework and optimized enrichment and tenant loading, reducing database calls and improving Hikari connection-pool use and startup time.',
         'Built admin panels and development tools using AI, so client, product and RM teams manage configurations independently; migrated services to Java 21 and handled SSL and TLS certificate migrations.',
       ],
-      tags: ['Spring Boot', 'Spring AOP', 'Redis', 'Bloom Filters', 'Kong Gateway', 'Kubernetes', 'Java 21'],
+      tags: ['System Design', 'Spring Boot', 'Spring AOP', 'Redis', 'Bloom Filters', 'Kong Gateway', 'Kubernetes', 'Java 8-21'],
     },
     {
       title: 'Software Developer',
@@ -176,7 +216,7 @@ export const experience = {
         'Achieved zero downtime on production services with keep-alive, virtual IPs and master-slave HA; cut Redis memory by over 50% with a purging policy, a cluster setup and tuned RDB snapshots.',
         'Deployed a microservices architecture on a cloud Kubernetes cluster; implemented observability using ELK, Prometheus and Grafana.',
       ],
-      tags: ['Kafka', 'GraphQL', 'Redis Cluster', 'Kubernetes', 'ELK', 'Prometheus', 'Grafana'],
+      tags: ['Kafka', 'GraphQL', 'Redis Cluster', 'Kubernetes', 'ELK', 'Prometheus', 'Grafana', 'MySQL', 'MongoDB'],
     },
   ],
 };
@@ -184,7 +224,7 @@ export const experience = {
 export const internships = [
   {
     company: 'ComED Learning',
-    logo: '', // optional
+    logo: '/logos/comed.jpeg', // optional
     role: 'Software Development Intern',
     location: 'Remote',
     period: 'Apr 2022 – Jul 2022',
@@ -193,11 +233,11 @@ export const internships = [
       'Developed UI/UX components and backend functionality for the ComED Learning platform.',
       'Integrated backend APIs for data exchange and dynamic content rendering; debugged application issues and performed functional testing to improve reliability.',
     ],
-    tags: ['UI/UX', 'REST APIs', 'Testing'],
+    tags: ['Django', 'React JS', 'Pyhton', 'UI/UX', 'REST APIs', 'Testing'],
   },
   {
     company: 'K J Somaiya College of Engineering',
-    logo: '', // optional
+    logo: '/logos/kjsce.png', // optional
     role: 'Web Development Intern',
     location: 'Mumbai, India',
     period: 'Feb 2021 – Apr 2021',
@@ -206,50 +246,50 @@ export const internships = [
       'Developed the website for the college cultural fest, Symphony, collaborating with the cultural and design teams.',
       'Built responsive web interfaces with interactive components and animations, optimizing layouts for different screen sizes.',
     ],
-    tags: ['Responsive design', 'Animations', 'Web'],
+    tags: ['JavaScript', 'CSS', 'Responsive design', 'Animations', 'Web'],
   },
 ];
 
 export const freelancing = {
   availability: 'Open to select freelance projects', // TODO
   intro:
-    'Alongside my full-time role I take on a limited number of freelance engagements: backend APIs, data pipelines and front-ends for small teams and startups who want production-grade engineering without a full-time hire.',
+    'Alongside my full-time role, I take on a limited number of freelance projects: full-stack products, backend APIs and data pipelines, and polished front ends, delivered with production-grade engineering and AI-assisted speed.',
   services: [
     {
-      icon: 'Api',
+      icon: 'Web',
       color: 'violet',
+      title: 'Full-stack web applications',
+      text: 'End-to-end products with React or Next.js front ends and Java, Python or Node.js back ends.',
+    },
+    {
+      icon: 'Palette',
+      color: 'coral',
+      title: 'UI/UX and front ends',
+      text: 'Responsive, accessible interfaces and dashboards that are fast and easy to use.',
+    },
+    {
+      icon: 'Api',
+      color: 'sky',
       title: 'Backend and API development',
-      text: 'REST and GraphQL services in Java, Spring Boot, Node.js or Python, with clean contracts and tracing built in.',
+      text: 'REST and GraphQL services with clean contracts, tracing and caching built in.',
     },
     {
       icon: 'Stream',
-      color: 'sky',
+      color: 'mint',
       title: 'Data pipelines and ingestion',
       text: 'Kafka-based ingestion with status tracking and reconciliation, so no record goes missing.',
     },
     {
-      icon: 'Speed',
-      color: 'mint',
-      title: 'Performance and caching',
-      text: 'Redis caching, locking and query tuning to hit the latency and throughput targets you set.',
+      icon: 'Dashboard',
+      color: 'amber',
+      title: 'Admin panels and internal tools',
+      text: 'Configurable tools, built quickly with AI assistance, that let non-engineers manage rules and data.',
     },
     {
       icon: 'Cloud',
-      color: 'coral',
-      title: 'Cloud and DevOps setup',
-      text: 'Docker and Kubernetes deployments, monitoring with Prometheus, Grafana and ELK, and alerting.',
-    },
-    {
-      icon: 'Web',
-      color: 'amber',
-      title: 'Web front ends',
-      text: 'React and Next.js sites and dashboards with Material UI, built to be fast and accessible.',
-    },
-    {
-      icon: 'Dashboard',
       color: 'violet',
-      title: 'Admin panels',
-      text: 'Configurable internal tools that let non-engineers manage rules, programs and data.',
+      title: 'Cloud, performance and DevOps',
+      text: 'Docker and Kubernetes deployments, monitoring, alerting and performance tuning.',
     },
   ],
   // TODO: add your freelance case studies here. Each entry renders as a card.
@@ -262,7 +302,7 @@ export const projects = [
   {
     title: 'Mumbai Police web portal',
     color: 'sky',
-    logo: '', // optional
+    logo: '/logos/mumbaipolice.png', 
     description: 'A full-stack complaint portal with station routing and status tracking.',
     stack: ['Django', 'PostgreSQL', 'Leaflet.js'],
     github: 'https://github.com/Marmik198/Mumbai_Police',
@@ -270,7 +310,7 @@ export const projects = [
   {
     title: 'Waiterio application',
     color: 'mint',
-    logo: '', // optional
+    logo: '/logos/waiterio.png', // optional
     description: 'A client-server desktop app where waiters place orders and the chef fulfills them.',
     stack: ['Java', 'Swing', 'Sockets'],
     github: 'https://gitlab.com/grow_more/waiter-ordering-system',
@@ -278,9 +318,33 @@ export const projects = [
   {
     title: 'Newzer',
     color: 'coral',
-    logo: '', // optional
+    logo: '/logos/newzer.png', 
     description: "A personalized news recommendation website that curates and summarizes articles based on users' interests, preferences and feedback, using a recommendation algorithm.",
-    stack: ['Django', 'JavaScript', 'ML Algorithms'],
+    stack: ['Django', 'JavaScript', 'ML'],
     github: 'https://github.com/Marmik198/Newzer',
+  },
+  {
+    title: 'Chakra',
+    color: 'sky',
+    logo: '/logos/chakra.png', // optional
+    description: 'A full-stack portal/app with task, expense, etc tracking.',
+    stack: ['Node', 'Next JS', 'Supabase'],
+    github: 'https://github.com/Marmik198/Chakra',
+  },
+  {
+    title: 'Mapty',
+    color: 'mint',
+    logo: '/logos/mapty.png', // optional
+    description: 'Web application that lets you keep track of your workouts associated to map locations',
+    stack: ['JavaScript', 'Geolocation', 'Leaflet'],
+    github: 'https://github.com/Marmik198/Mapty',
+  },
+  {
+    title: 'Forkify',
+    color: 'coral',
+    logo: '/logos/forkify.png', // optional
+    description: "Web application that lets you explore different recipes, add your own recipes, bookmark your favourite ones.",
+    stack: ['JavaScript', 'Parcel', 'Async', 'SASS'],
+    github: 'https://github.com/Marmik198/Forkify',
   },
 ];

@@ -72,7 +72,7 @@ export default function Skills() {
   return (
     <>
       <Section id="skills">
-        <SectionHeading title="Skills" subtitle="The tools and ideas I reach for most, grouped by what they help me do." />
+        <SectionHeading title="Skills" subtitle="Backend depth, front-end craft and an AI-assisted workflow, grouped by what they help me do." />
         {/* Flex (not grid) so a short last row, e.g. the 7th card, sits in the centre. Gap is 20px (spacing 2.5). */}
         <Box sx={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: 2.5 }}>
           {skills.map((g, i) => (

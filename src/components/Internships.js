@@ -9,7 +9,7 @@ import { Section, SectionHeading, Reveal, FxCard, Pill, Bullets, Mono, Logo } fr
 export default function Internships() {
   return (
     <Section id="internships">
-      <SectionHeading title="Internships" subtitle="Two internships before my first full-time role, where I learned to ship things people actually use." />
+      <SectionHeading title="Internships" subtitle="Two internships before my first full-time role, spanning UI/UX, responsive web interfaces and backend integration." />
       <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: 'minmax(0, 1fr)' }}>
         {internships.map((it, i) => (
           <Reveal key={it.company} delay={i * 0.1}>

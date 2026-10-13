@@ -9,9 +9,11 @@ import { Section, SectionHeading, Reveal, FxCard, IconBox, Mono, TextLink } from
 export default function Achievements() {
   return (
     <Section id="achievements">
-      <SectionHeading title="Awards and Achievements" subtitle="Recognition from work and from college." />
+      <SectionHeading title="Awards and Achievements" subtitle="Recognised every year at work, plus a first-place hackathon finish." />
       <Box sx={{ display: 'grid', gap: 3, gridTemplateColumns: { xs: '1fr', md: 'repeat(2, 1fr)' } }}>
-        {achievements.map((item, i) => (
+        {achievements
+          .sort((a, b) => a.period.localeCompare(b.period))
+          .map((item, i) => (
           <Reveal key={item.title} delay={(i % 2) * 0.08} sx={{ height: '100%' }}>
             <FxCard tilt={5} sx={{ p: { xs: 3, md: 4 }, height: '100%', display: 'flex', flexDirection: 'column' }}>
               <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 2, mb: 2.5 }}>

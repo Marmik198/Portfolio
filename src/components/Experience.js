@@ -7,7 +7,8 @@ import { alpha } from '@mui/material/styles';
 import { motion, useScroll, useSpring } from 'framer-motion';
 
 import { experience } from '@/data/portfolio';
-import { Section, SectionHeading, Reveal, FxCard, Pill, Bullets, Logo } from './ui';
+import { Section, SectionHeading, Reveal, FxCard, Pill, Bullets, Logo, Mono } from './ui';
+import { EditCalendar } from '@mui/icons-material';
 
 export default function Experience() {
   const trackRef = React.useRef(null);
@@ -21,21 +22,25 @@ export default function Experience() {
       <Reveal sx={{ mb: 6 }}>
         <FxCard tilt={2} sx={{ p: { xs: 3, md: 4 }, pl: { xs: 3.5, md: 5 } }}>
           {/* Accent edge on the left (a real element, because FxCard already uses ::before for its hover glow) */}
-          <Box aria-hidden sx={(t) => ({ position: 'absolute', left: 0, top: 0, bottom: 0, width: 5, background: `linear-gradient(180deg, ${t.palette.primary.main}, ${t.palette.accent})` })} />
-          <Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 2, md: 3 } }}>
-            <Logo src={experience.logo} name={experience.company} size={76} />
-            <Box sx={{ minWidth: 0 }}>
-              <Typography variant="h4" component="h3" sx={{ fontSize: { xs: '1.55rem', md: '2.2rem' }, lineHeight: 1.15 }}>
-                {experience.company}
-              </Typography>
-              <Typography sx={{ color: 'accent', fontWeight: 600, mt: 0.5, fontSize: { xs: '0.98rem', md: '1.08rem' } }}>{experience.group}</Typography>
+          <Box aria-hidden sx={(t) => ({ position: 'absolute', left: 0, top: 0, bottom: 0, width: 0, background: `linear-gradient(180deg, ${t.palette.primary.main}, ${t.palette.accent})` })} />
+          <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: { xs: 2, md: 3 } }}>
+              <Logo src={experience.logo} name={experience.company} size={76} />
+              <Box sx={{ minWidth: 0 }}>
+                <Typography variant="h4" component="h3" sx={{ fontSize: { xs: '1.55rem', md: '2.2rem' }, lineHeight: 1.15 }}>
+                  {experience.company}
+                </Typography>
+                <Typography sx={{ color: 'accent', fontWeight: 600, mt: 0.5, fontSize: { xs: '0.98rem', md: '1.08rem' } }}>{experience.group}</Typography>
+                <Mono sx={{ display: { xs: 'none', sm: 'block' }, mt: 0.75 }}>{experience.location}</Mono>
+                <Mono sx={{ display: { xs: 'block', sm: 'none' }, mt: 0.75 }}>{[experience.period, experience.location].filter(Boolean).join(' · ')}</Mono>
+              </Box>
             </Box>
+            <Pill sx={{ display: { xs: 'none', sm: 'inline-flex' }, alignSelf: 'flex-start', flexShrink: 0 }}>{experience.period}</Pill>
           </Box>
           <Box sx={{ display: 'flex', flexWrap: 'wrap', gap: 1, mt: 2.5 }}>
             {experience.domains.map((dm) => (
               <Pill key={dm}>{dm}</Pill>
             ))}
-            <Pill>{experience.location}</Pill>
           </Box>
         </FxCard>
       </Reveal>

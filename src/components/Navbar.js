@@ -24,10 +24,10 @@ const LINKS = [
   ['experience', 'Experience'],
   ['internships', 'Internships'],
   ['education', 'Education'],
-  ['achievements', 'Awards'],
   ['projects', 'Projects'],
+  ['achievements', 'Awards'],
   ['freelancing', 'Freelancing'],
-  ['certifications', 'Certificates'],
+  // ['certifications', 'Certificates'],
   ['contact', 'Contact'],
 ];
 
