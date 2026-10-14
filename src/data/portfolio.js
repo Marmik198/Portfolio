@@ -201,7 +201,7 @@ export const experience = {
       period: 'Apr 2025 – Present',
       color: 'coral',
       bullets: [
-        'Architected a channel loyalty product for manufacturers and finance companies, serving agents and channel partners with hierarchy and KPI management, leaderboards, tier computations, customer segmentation and approval workflows.',
+        'Architected a channel loyalty solution for manufacturers and finance companies, serving agents and channel partners with hierarchy and KPI management, leaderboards, tier computations, customer segmentation and approval workflows.',
         'Engineered a real-time, API-driven microservices system replacing T+1 bulk-file settlement, with 99\% of transactions under 800ms; used Spring AOP for cross-cutting concerns and tracing, plus a webhook-based data-relay service.',
         'Delivered a low-latency balance service handling 300 TPS using caching, Bloom filters and database views, letting partners fetch balances and burn points across corporates and lines of business in a single call.',
         'Consolidated vendor integrations across multiple products into a unified hub using strategy-based orchestration and Kong gateway, lowering configuration and development effort by 60\% when onboarding new vendors.',
@@ -217,9 +217,9 @@ export const experience = {
       color: 'violet',
       bullets: [
         'Engineered a Kafka-driven ingestion platform processing 1M+ records daily, leveraging polling and webhook patterns for asynchronous status tracking and reconciliation to catch missed status updates.',
-        'Designed an enterprise-wide loyalty system letting one program span multiple lines of business, with generic APIs.',
-        'Developed a milestone-based journey rewards product on GraphQL; prototyped a profile-driven multi-database setup and a strategy-driven post-award layer for cashback and other redemption modules.',
-        'Devised a parallel-processing lock for distributed ad hoc transactions and implemented the budget module to control reward spend, with threshold-based actions and real-time budget updates.',
+        'Designed an enterprise-wide loyalty program letting one corporate span multiple lines of business, with generic APIs.',
+        'Developed a milestone-based journey rewards feature on GraphQL; prototyped a profile-driven multi-database setup and a strategy-driven post-award layer for cashback and other gihting modules.',
+        'Devised a parallel-processing lock for distributed ad hoc transactions and added budget controls to cap reward spend, with threshold-based actions and real-time updates.',
         'Achieved zero downtime on production services with keep-alive, virtual IPs and master-slave HA; cut Redis memory by over 50\% with a purging policy, a cluster setup and tuned RDB snapshots.',
         'Deployed microservices architecture on a Kubernetes cluster; introduced observability using ELK, Prometheus, and Grafana.',
         'Migrated services to Java 21 and handled SSL/TLS certificate migrations.', 
