@@ -60,7 +60,7 @@ export const education = [
     title: 'B.Tech, Computer Engineering',
     place: 'K J Somaiya College of Engineering, Mumbai',
     period: '2019 – 2023',
-    note: 'CGPI 8.93',
+    note: 'CGPI 9.04',
     logo: '/logos/kjsce.png', // optional
     subjects: [
       'Data Structures',
